@@ -1,0 +1,53 @@
+# FastAPI 核心依赖
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# 数据库相关
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.13.1
+
+# 认证和安全
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+argon2-cffi==23.1.0
+python-multipart==0.0.6
+
+# 环境配置
+python-dotenv==1.0.0
+pydantic-settings==2.1.0
+
+# HTTP 客户端 (用于 reCAPTCHA 验证)
+httpx==0.25.2
+aiohttp==3.9.1
+
+# 速率限制
+slowapi==0.1.9
+
+# 数据验证
+pydantic[email]==2.5.2
+email-validator==2.1.0
+
+# 日志和监控
+structlog==23.2.0
+
+# 测试
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# 开发工具
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Redis (可选，用于缓存)
+redis==5.0.1
+aioredis==2.0.1
+
+# 时间处理
+python-dateutil==2.8.2
+
+# UUID 生成
+uuid==1.30
